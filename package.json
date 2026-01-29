@@ -1,0 +1,40 @@
+{
+  "name": "orangeslice",
+  "version": "1.7.11",
+  "description": "B2B LinkedIn database prospector - 1.15B profiles, 85M companies",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "orangeslice": "dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "npx tsx test.ts"
+  },
+  "keywords": [
+    "b2b",
+    "rate-limit",
+    "ai-agent",
+    "linkedin",
+    "sales-agent",
+    "claude-code",
+    "cursor",
+    "mcp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "typescript": "^5.9.3"
+  }
+}
